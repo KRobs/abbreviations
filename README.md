@@ -5,8 +5,11 @@ The algorithm chosen is rather simple. The string is split on non-word character
  
 ### Sample usage
 `>>>from unabbreviator import Unabbreviator`
+
 `>>>my_unabbreviator = Unabbreviator('abbreviation_definitions.csv')`
+
 `>>>my_unabbreviator.unabbreviate('Ms State Univ-Student Affairs')`
+
 `'Mississippi State University-Student Affairs'`
 
 ### Instructions for test cases
